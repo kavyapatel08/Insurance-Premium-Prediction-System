@@ -3,11 +3,12 @@
 This folder contains the **Streamlit frontend** for the Insurance Premium Prediction System.
 
 ## 📂 Folder Structure
-**frontend/
-├─ app_ui.py # Main Streamlit app
-├─ assets/
-│ └─ frontend.png # App screenshot
-└─ Dockerfile # Frontend Dockerfile**
+frontend/
+├─ app_ui.py         # Main Streamlit app
+assets/
+│  └─ frontend.png   # App screenshot
+└─ Dockerfile        # Frontend Dockerfile
+
 
 bash
 Copy code
@@ -27,5 +28,6 @@ Copy code
 - assets/ contains screenshots or static files for the frontend.
 
 - Dockerfile can be used to containerize the frontend separately.
+
 
 
