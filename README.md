@@ -134,7 +134,7 @@ Open 👉 http://localhost:8000/docs
 - 💼 Machine Learning & AI Enthusiast
 - 📧 https://www.linkedin.com/in/kavya-200o/
 
-#####⭐ Support
+⭐ Support
 
 - If you found this project helpful, please ⭐ star this repo and share it!
 - Feedback, forks, and suggestions are always welcome 💬
@@ -142,5 +142,6 @@ Open 👉 http://localhost:8000/docs
 🏁 Conclusion
 
 - This project demonstrates the end-to-end ML workflow — from model building and API creation to Dockerization and deployment.
+
 
 
