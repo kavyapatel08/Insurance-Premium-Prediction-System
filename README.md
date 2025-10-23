@@ -102,44 +102,45 @@ Response
   "calculated_bmi": 13.33
 }
 
-🧰 Run Locally (Optional)
-Clone the Repository
-git clone https://github.com/kavyapatel08/Insurance-Premium-Prediction-System.git
-cd Insurance-Premium-Prediction-System
+#### 🧰 Run Locally (Optional)
+- Clone the Repository
+- git clone https://github.com/kavyapatel08/Insurance-Premium-Prediction-System.git
+- cd Insurance-Premium-Prediction-System
 
 
-Create Virtual Environment
-python -m venv venv
-source venv/Scripts/activate      # (for Windows)
+#### Create Virtual Environment
+- python -m venv venv
+- source venv/Scripts/activate      # (for Windows)
 
 
-Install Dependencies
-pip install -r requirements.txt
+#### Install Dependencies
+- pip install -r requirements.txt
 
 
-Run FastAPI (Backend)
-cd app
-uvicorn main:app --reload
+#### Run FastAPI (Backend)
+- cd app
+- uvicorn main:app --reload
 
 
 Open 👉 http://localhost:8000/docs
 
-Run Streamlit (Frontend)
-cd frontend
-streamlit run app_ui.py
+#### Run Streamlit (Frontend)
+- cd frontend
+- streamlit run app_ui.py
 
-👩‍💻 Author
+#### 👩‍💻 Author
 
-Kavya Patel
-💼 Machine Learning & AI Enthusiast
-📧 https://www.linkedin.com/in/kavya-200o/
+##### Kavya Patel
+- 💼 Machine Learning & AI Enthusiast
+- 📧 https://www.linkedin.com/in/kavya-200o/
 
-⭐ Support
+#####⭐ Support
 
-If you found this project helpful, please ⭐ star this repo and share it!
-Feedback, forks, and suggestions are always welcome 💬
+- If you found this project helpful, please ⭐ star this repo and share it!
+- Feedback, forks, and suggestions are always welcome 💬
 
 🏁 Conclusion
 
-This project demonstrates the end-to-end ML workflow — from model building and API creation to Dockerization and deployment.
+- This project demonstrates the end-to-end ML workflow — from model building and API creation to Dockerization and deployment.
+
 
