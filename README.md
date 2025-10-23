@@ -60,33 +60,13 @@ To design, develop, and deploy a **production-ready machine learning pipeline** 
 
 ---
 
-## 🧩 Folder Structure
-
-Insurance-Premium-Prediction-System/
-│
-├── Model/
-│ ├── 01_EDA.ipynb
-│ ├── 02_Data_Preprocessing_and_Model.ipynb
-│ ├── GB_regressor.pkl
-│ └── insurance.csv
-│
-├── app/
-│ └── main.py # (If you keep FastAPI backend here)
-│
-├── frontend/
-│ ├── Dockerfile
-│ ├── app_ui.py
-│ ├── requirements.txt
-│ └── README.md # Frontend-specific info
-│
-├── venv/ # Virtual environment (ignored via .gitignore)
-│
-├── assets/
-│ └── frontend.png # App screenshot
-│
-├── Dockerfile # Root Dockerfile (if combined setup)
-├── README.md # Main project README (this file)
-└── requirements.txt # Common dependencies
+### 🔹 Notes:
+- **Model/**: Contains Jupyter notebooks for EDA, preprocessing, trained models, and raw dataset.  
+- **app/**: FastAPI backend code.  
+- **frontend/**: Streamlit UI, assets, and Dockerfile for frontend deployment.  
+- **Dockerfile**: Root Dockerfile if you are combining backend and frontend in one container.  
+- **venv/**: Local virtual environment (ignored in Git).  
+- **requirements.txt**: Lists all Python dependencies needed for the project.  
 
 ---
 
@@ -127,12 +107,15 @@ Clone the Repository
 git clone https://github.com/kavyapatel08/Insurance-Premium-Prediction-System.git
 cd Insurance-Premium-Prediction-System
 
+
 Create Virtual Environment
 python -m venv venv
 source venv/Scripts/activate      # (for Windows)
 
+
 Install Dependencies
 pip install -r requirements.txt
+
 
 Run FastAPI (Backend)
 cd app
@@ -159,3 +142,4 @@ Feedback, forks, and suggestions are always welcome 💬
 🏁 Conclusion
 
 This project demonstrates the end-to-end ML workflow — from model building and API creation to Dockerization and deployment.
+
